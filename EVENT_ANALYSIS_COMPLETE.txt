@@ -1,0 +1,3820 @@
+================================================================================
+RPG MAKER MZ - WORLD'S GREATEST MERCENARY - COMPLETE EVENT ANALYSIS
+================================================================================
+
+======================================================================
+MAP 001: 起始之村 ("起始之村")
+======================================================================
+Size: 35x40, Tileset: 2
+BGM: Town1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 16
+
+------------------------------------------------------------------------------------------
+EVENT 1: "傭兵公會" at (5,6)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map004(10,14), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (10,6)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "出村" at (16,0)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map003(14,43), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "旅館" at (23,16)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map006(10,14), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "道具店" at (30,16)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map007(10,14), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "武器店" at (27,26)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map008(10,14), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "EV007" at (8,25)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "門鎖住了。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "EV008" at (5,33)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "門鎖住了。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "村人A" at (16,35)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People2[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People2[1])
+          Text: "唉，最近村子附近的魔物越來越多了…"
+          Show Text (face=People2[1])
+          Text: "聽說城裡的傭兵公會一直在招募新人。"
+          Text: "年輕人，你要是想賺大錢，去那裡試試吧！"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "村人B" at (20,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People4[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People4[0])
+          Text: "你聽說過了嗎？傳說中的『巔峰之刃』"
+          Text: "據說那是艾爾瑟大陸最強傭兵的稱號。"
+          Show Text (face=People4[0])
+          Text: "不過從來沒有人見過他的真面目…"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "村人C" at (25,28)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People1[7])
+          Text: "哎呀，你是艾倫吧？"
+          Text: "你妹妹莉亞真是個乖孩子，經常來幫我的忙。"
+          Show Text (face=People1[7])
+          Text: "出門在外要記得照顧好自己啊！"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "艾伦的家" at (8,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map002(8,12), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "出村" at (17,0)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map003(14,43), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 14: "出村" at (18,0)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map003(14,43), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 15: "旅行商人" at (2,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People4[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (8 items):
+          Show Text (face=People4[1])
+          Text: "嘿，年輕人，我看你面生，是新來冒險者吧？"
+          Show Text (face=People4[1])
+          Text: "我剛從北方回來，那裡的哥布林洞穴最近很不安寧，"
+          Text: "聽說公會已經發布了討伐委託，報酬不錯喔！"
+          Show Text (face=People4[1])
+          Text: "不過要小心，好像還有更強的魔物在洞穴深處…"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 16: "村人D" at (18,31)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[5]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People1[5])
+          Text: "我們這個村子雖然不大，但大家都很友善！"
+          Show Text (face=People1[5])
+          Text: "你有去過村長家嗎？就在村子中央。"
+          Text: "村長是個見多識廣的人，有問題可以去請教他！"
+      [End of Page]
+
+======================================================================
+MAP 002: 艾倫的家 ("艾倫的家")
+======================================================================
+Size: 17x15, Tileset: 3
+BGM: Theme1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 4
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (8,13)
+  Total Pages: 3
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(8,15), dir=same, fade=black
+      [End of Page]
+
+  [Page 2]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[2]>=3
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (29 items):
+          Show Text (face=People1[1])
+          Text: "哥哥！你回來了！"
+          Text: "听说你在遗迹打败了很厉害的怪物，太棒了！"
+          Show Text (face=Actor1[0])
+          Text: "啦啦，这没什么。"
+          Text: "你一个人在家还好吧？"
+          Show Text (face=People1[1])
+          Text: "恩！但是……哥哥每次出去，我都好担心。"
+          Text: "我也想和哥哥一起出去！"
+          Text: "我不想再等在家里操心了！"
+          Show Text (face=Actor1[0])
+          Text: "你说什么？不行，外面太危险了。"
+          Show Text (face=People1[1])
+          Text: "我可以帮忙的！哥哥教过我用法术！"
+          Text: "而且……我不想再只是等待的人了。"
+          Text: "我也想和哥哥一起成长！"
+            Wait 30 frames
+          Show Text (face=Actor1[0])
+          Text: "……嘔，真是的。"
+          Text: "你跟着我，但得听我的话，知道吗？"
+          Show Text (face=People1[1])
+          Text: "恩！谢谢哥哥！"
+            Change Items[2] +1
+            Play SE: Decision2 vol=90 pitch=100
+          Show Text (face=[0])
+          Text: "リアがパーティに加わった！"
+            Wait 30 frames
+            Control Self Switch B = ON
+      [End of Page]
+
+  [Page 3]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Self[B]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=People1[1])
+          Text: "哥哥，我在你身边呢！"
+          Text: "下一站去哪里？"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "莉亞" at (7,8)
+  Total Pages: 7
+
+  [Page 1]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (7 items):
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥，你要出發了嗎…"
+          Show Text (face=[0])
+          Text: "莉亞露出擔心的表情，但仍然努力擠出笑容。"
+          Show Text (face=People1[1])
+          Text: "莉亞：答應我，一定會平安回來！"
+      [End of Page]
+
+  [Page 2]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=1
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (8 items):
+          Show Text (face=People1[1])
+          Text: "（咳咳…）哥哥，你回來了？"
+          Show Text (face=[0])
+          Text: "莉亞輕輕咳嗽了幾聲，臉色有些蒼白。"
+          Show Text (face=People1[1])
+          Text: "莉亞：我…我沒事的。你接到任務了嗎？"
+          Text: "要小心喔…我會等你回來。"
+      [End of Page]
+
+  [Page 3]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=2
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (12 items):
+          Show Text (face=People1[1])
+          Text: "（咳…咳…）哥哥…！"
+          Show Text (face=[0])
+          Text: "莉亞的咳嗽比之前更嚴重了，她勉強擠出笑容。"
+          Show Text (face=People1[1])
+          Text: "莉亞：你的衣服…你遇到危險了嗎…？"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：沒事了，已經解決了。"
+          Show Text (face=People1[1])
+          Text: "莉亞：真的嗎…太好了…（鬆了一口氣）"
+          Text: "快去公會報告吧，別讓人家等。"
+      [End of Page]
+
+  [Page 4]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=3
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (20 items):
+          Show Text (face=[0])
+          Text: "莉亞正坐在窗邊，輕輕咳嗽著。"
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥…你回來了。"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：莉亞，我帶錢回來了。"
+          Text: "800金幣，夠付醫藥費了。"
+          Show Text (face=People1[1])
+          Text: "莉亞：真的…？（眼睛亮起來）哥哥你真的做到了…"
+          Text: "（眼眶泛紅）我就知道…我就知道哥哥一定做得到！"
+          Show Text (face=[0])
+          Text: "莉亞緊緊抱住了艾倫，眼淚止不住地流下。"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：好了，我這就帶妳去看醫生。"
+          Show Text (face=People1[1])
+          Text: "莉亞：嗯…！謝謝你，哥哥。"
+            Wait 60 frames
+            Control Self Switch A = ON
+            Control Switches [4..0] = ON
+      [End of Page]
+
+  [Page 5]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=3
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (15 items):
+          Show Text (face=[0])
+          Text: "莉亞的氣色好多了。"
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥，醫生說按時吃藥就會康復了！"
+          Text: "這都是多虧了哥哥…我真的好開心。"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：這是當然的，我答應過妳。"
+          Show Text (face=People1[1])
+          Text: "莉亞：（微笑）不過，你的旅程才正要開始吧？"
+          Text: "聽說公會還有很多更厲害的委託呢。"
+          Text: "去吧，不用擔心我。"
+          Text: "去成為世界最強的傭兵吧！"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：嗯。為了妳，我一定會。"
+      [End of Page]
+
+  [Page 6]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[2]>=3
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (29 items):
+          Show Text (face=People1[1])
+          Text: "哥哥！你回來了！"
+          Text: "听说你在遗迹打败了很厉害的怪物，太棒了！"
+          Show Text (face=Actor1[0])
+          Text: "啦啦，这没什么。"
+          Text: "你一个人在家还好吧？"
+          Show Text (face=People1[1])
+          Text: "恩！但是……哥哥每次出去，我都好担心。"
+          Text: "我也想和哥哥一起出去！"
+          Text: "我不想再等在家里操心了！"
+          Show Text (face=Actor1[0])
+          Text: "你说什么？不行，外面太危险了。"
+          Show Text (face=People1[1])
+          Text: "我可以帮忙的！哥哥教过我用法术！"
+          Text: "而且……我不想再只是等待的人了。"
+          Text: "我也想和哥哥一起成长！"
+            Wait 30 frames
+          Show Text (face=Actor1[0])
+          Text: "……嘔，真是的。"
+          Text: "你跟着我，但得听我的话，知道吗？"
+          Show Text (face=People1[1])
+          Text: "恩！谢谢哥哥！"
+            Change Items[2] +1
+            Play SE: Decision2 vol=90 pitch=100
+          Show Text (face=[0])
+          Text: "リアがパーティに加わった！"
+            Wait 30 frames
+            Control Self Switch B = ON
+      [End of Page]
+
+  [Page 7]
+    Image: People1[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Self[B]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=People1[1])
+          Text: "哥哥，我在你身边呢！"
+          Text: "下一站去哪里？"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "開場" at (0,0)
+  Total Pages: 2
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Autorun
+    Condition: None
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (42 items):
+            Wait 30 frames
+          Show Text (face=[0])
+          Text: "清晨的陽光透過窗縫灑進屋內。"
+          Text: "艾倫背起了行囊，環視著這個與妹妹一起長大的家。"
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥…你真的要走了嗎？"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：嗯，我已經決定了。"
+          Text: "繼續待在村子裡，我們永遠無法改變現狀。"
+          Text: "至少…要先湊齊妳的醫藥費。"
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥…那種事情不急的…"
+          Text: "比起那個，我更擔心哥哥的安危…"
+          Show Text (face=[0])
+          Text: "莉亞：……我會照顧好自己的。"
+          Text: "哥哥要答應我，一定要平安回來！"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：我答應妳。"
+          Text: "等我成為世界最強的傭兵，一定會讓妳過上好日子。"
+          Show Text (face=[0])
+          Text: "莉亞的眼眶泛紅，但還是用力點了點頭。"
+          Show Text (face=People1[1])
+          Text: "莉亞：我相信哥哥！"
+          Text: "一定要成為世界上最強的傭兵喔！"
+          Show Text (face=Actor1[0])
+          Text: "艾倫：嗯，為了妳，我一定會。"
+          Show Text (face=People1[1])
+          Text: "莉亞：哥哥…我聽說村裡的傭兵公會正在招募新人。"
+          Text: "去試試看吧，我會在家裡等你回來。"
+            Wait 60 frames
+            Play SE: Decision2 vol=90 pitch=100
+          Show Text (face=[0])
+          Text: "艾倫輕輕摸了摸莉亞的頭，轉身走向門口。"
+          Text: "他的冒險，從這一刻開始——"
+            Code[132]: params=[0, 100]
+            Play SE: Item3 vol=90 pitch=100
+          Show Text (face=[0])
+          Text: "獲得了100金（家裡的積蓄）。"
+            Wait 30 frames
+            Change Gold +100
+            Control Switches [1..0] = ON
+            Control Self Switch A = ON
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Action Button
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "舊寶箱" at (14,7)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Chest[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+            Play SE: Item3 vol=90 pitch=100
+            Code[134]: params=[1, 7, 1]
+          Show Text (face=[0])
+          Text: "獲得了 木杖 ×1！"
+            Control Self Switch A = ON
+
+  [Page 2]
+    Image: !Chest[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "箱子已經空了。"
+      [End of Page]
+
+======================================================================
+MAP 003: 村外道路 ("村外道路")
+======================================================================
+Size: 29x50, Tileset: 2
+BGM: Field2, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: IslandOfSky1
+Scroll Type: 0, Dash Disabled: False
+Encounter List:
+  Troop[1] weight=4
+  Troop[3] weight=3
+  Troop[8] weight=3
+  Troop[9] weight=2
+  Troop[11] weight=2
+Encounter Step: 30
+
+TOTAL EVENTS: 13
+
+------------------------------------------------------------------------------------------
+EVENT 1: "森林入口" at (13,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map005(15,1), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "路標" at (17,35)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "【路標】"
+          Text: "→ 傭兵公會：沿著道路北上"
+          Text: "← 起始之村：南方"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "哥布林" at (14,24)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[1]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+            Battle Proc: Troop[1] (escape=N, lose=N)
+            Control Self Switch A = ON
+          Show Text (face=[0])
+          Text: "打败了哥布林！道路通了。"
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Action Button
+    Condition: Self[A]=ON
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "森林入口" at (14,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map005(15,1), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "落石" at (11,35)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "這條路被巨大的落石堵住了，無法通行。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "回村" at (14,44)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(17,1), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "森林入口" at (15,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map005(15,1), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "回村" at (12,44)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(17,1), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "回村" at (13,44)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(17,1), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "回村" at (15,44)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(17,1), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "回村" at (16,44)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(17,1), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "往森林城鎮" at (17,0)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map012(17,37), dir=up, fade=black
+      [End of Page]
+
+  [Page 2]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "前方看起來是通往森林城鎮的路。"
+          Text: "但目前還沒有開放通行…"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "往试炼之塔" at (5,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "你离开了主干道，沿着小径前往试炼之塔……"
+            Transfer: Map021(12,30), dir=down, fade=black
+      [End of Page]
+
+======================================================================
+MAP 004: 傭兵公會 ("傭兵公會")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 5
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(10,7), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "接待員" at (9,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (9 items):
+          Show Text (face=People1[3])
+          Text: "歡迎來到傭兵公會！我是這裡的接待員。"
+          Show Text (face=People1[3])
+          Text: "你想成為傭兵嗎？只要在公會登記，"
+          Text: "就可以接取各種任務賺取報酬。"
+          Show Text (face=People1[3])
+          Text: "不過新人最好先從簡單的任務開始。"
+          Text: "有興趣的話，可以去看看那邊的任務告示板。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "任務告示板" at (11,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: Tile#91
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (7 items):
+          Show Text (face=[0])
+          Text: "【任務告示板】"
+          Text: "• 收集藥草 ×3 — 報酬：100金"
+          Text: "• 擊退哥布林 — 報酬：200金"
+          Text: "• 護送商隊到王都 — 報酬：500金"
+          Text: "（目前尚無可承接的任務）"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "会长" at (5,8)
+  Total Pages: 4
+
+  [Page 1]
+    Image: People2[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=0
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (29 items):
+          Show Text (face=People2[4])
+          Text: "歡迎來到傭兵公會！你是新來的冒險者吧？"
+          Show Choices: ['接任務', '聽說明', '離開'] (cancel=2)
+            WHEN Choice[0]:
+            Show Text (face=People2[4])
+            Text: "目前有一個緊急委託："
+            Text: "村外的哥布林洞穴最近魔物肆虐，"
+            Text: "希望能有人去清除那裡的威脅。"
+            Show Text (face=People2[4])
+            Text: "報酬是 800 金幣，有興趣的話就出發吧！"
+              Control Variable[1] += 1
+            Show Text (face=People2[4])
+            Text: "好，這個任務就交給你了！"
+            Text: "從村子北門出去，穿過森林和洞穴，"
+            Text: "擊敗深處的哥布林王，村民就安全了。"
+            End Choices
+            WHEN Choice[1]:
+            Show Text (face=People2[4])
+            Text: "傭兵公會是整個大陸最大的委託仲介組織。"
+            Text: "只要完成公會的委託，就能提升階級，"
+            Text: "獲得更高的報酬和更困難的任務！"
+            Show Text (face=People2[4])
+            Text: "從村子的北門出去，就可以到達哥布林洞穴。"
+            Text: "路上小心！"
+            End Choices
+            WHEN Cancel:
+            Show Text (face=People2[4])
+            Text: "有需要再來吧，年輕的冒險者。"
+            End Choices
+
+  [Page 2]
+    Image: People2[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=1
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (21 items):
+          Show Text (face=People2[4])
+          Text: "你已經接下任務了吧？"
+          Text: "穿過村外的道路，進入幽暗森林，"
+          Text: "洞穴深處就是哥布林王的巢穴。"
+          Show Text (face=People2[4])
+          Text: "一定要活著回來啊！"
+            Cond: Switch[3] is OFF
+            Show Text (face=People2[4])
+            Text: "對了，今天早上有一封給你的信。"
+            Text: "是從你的故鄉寄來的——署名莉亞。"
+              Wait 30 frames
+            Show Text (face=[0])
+            Text: "（打開信封，是妹妹熟悉的字跡…）"
+            Text: "「哥哥，你還好嗎？」"
+            Text: "「我去公會打聽，知道你正在執行任務。」"
+            Text: "「雖然相信哥哥的實力…但我還是很擔心。」"
+            Text: "「拜託，一定要平安回來見我。」"
+            Text: "「——莉亞」"
+              Control Switches [3..0] = ON
+            End Condition
+      [End of Page]
+
+  [Page 3]
+    Image: People2[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=2
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (11 items):
+          Show Text (face=People2[4])
+          Text: "你做到了！哥布林王被擊敗了！"
+          Text: "村莊終於安全了……"
+          Show Text (face=People2[4])
+          Text: "這是約定的報酬 800 金幣！"
+            Change Gold +800
+            Control Variable[1] = 3
+          Show Text (face=People2[4])
+          Text: "你做得很好，年輕人。"
+          Text: "公會期待你接下來的表現！"
+      [End of Page]
+
+  [Page 4]
+    Image: People2[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[1]>=3
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People2[4])
+          Text: "哈哈，又是你啊！"
+          Show Text (face=People2[4])
+          Text: "最近公會還沒有新的緊急委託，"
+          Text: "不過你可以在告示板上看看有沒有適合的任務。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "老练佣兵" at (7,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (11 items):
+          Show Text (face=People1[4])
+          Text: "听说过「试炼之塔」吗？就在城外不远的地方。"
+            Cond: Self Switch 1 is OFF
+            Show Text (face=People1[4])
+            Text: "据说塔里有古老的转职祭坛，能让人获得新的力量。"
+            Text: "出城往北走，看到岔路往左拐就到了。"
+            End Condition
+            Show Text (face=People1[4])
+            Text: "至少得练到Lv10，再去闯试炼之塔吧。"
+            Text: "到时候，你就能在塔里进行转职了。"
+      [End of Page]
+
+======================================================================
+MAP 005: 幽暗森林 ("幽暗森林")
+======================================================================
+Size: 32x40, Tileset: 2
+BGM: Dungeon4, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+Encounter List:
+  Troop[4] weight=4
+  Troop[1] weight=3
+  Troop[11] weight=3
+  Troop[13] weight=2
+Encounter Step: 30
+
+TOTAL EVENTS: 18
+
+------------------------------------------------------------------------------------------
+EVENT 1: "EV001" at (26,11)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (6,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "EV003" at (26,9)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "EV004" at (6,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "EV005" at (8,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "EV006" at (8,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "EV007" at (24,24)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "EV008" at (25,24)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "EV009" at (24,26)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "EV010" at (25,26)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "往森林城鎮" at (29,34)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map012(16,38), dir=up, fade=black
+      [End of Page]
+
+  [Page 2]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "前方看起來是通往森林城鎮的路。"
+          Text: "但目前還沒有開放通行…"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "往小木屋" at (19,16)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map011(9,13), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "森林出口" at (15,0)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map003(14,3), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 14: "魔物" at (20,9)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[0]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[2] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 15: "魔物" at (13,26)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[1]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 16: "魔物" at (15,14)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[2]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[3] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 17: "魔物" at (18,19)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[1]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 18: "往洞穴" at (7,39)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map009(6,9), dir=same, fade=black
+      [End of Page]
+
+======================================================================
+MAP 006: 旅館 ("旅館")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(23,17), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "旅館老闆" at (9,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People2[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (18 items):
+          Show Text (face=People2[1])
+          Text: "歡迎光臨旅館！要休息一晚嗎？(50G)"
+          Show Choices: ['休息', '不用了'] (cancel=1)
+            WHEN Choice[0]:
+              Cond: Gold >= 0
+                Change Gold -50
+                Recover All: Entire Party
+                Play SE: Item3 vol=90 pitch=100
+              Show Text (face=People2[1])
+              Text: "好好休息了一晚，體力完全恢復了！"
+              Code[411]: params=[]
+              Show Text (face=People2[1])
+              Text: "金幣不夠喔…先去賺點錢吧。"
+              End Condition
+            WHEN Cancel:
+            Show Text (face=People2[1])
+            Text: "需要休息隨時歡迎！"
+            End Choices
+
+======================================================================
+MAP 007: 道具店 ("道具店")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(30,17), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "店主" at (9,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People4[2]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (7 items):
+          Show Text (face=People4[2])
+          Text: "歡迎光臨！來看看有什麼需要的吧？"
+            Shop: Item[7] (buy/sell)
+              +Shop Item: Item[8]
+              +Shop Item: Item[10]
+              +Shop Item: Item[13]
+              +Shop Item: Item[11]
+
+======================================================================
+MAP 008: 武器店 ("武器店")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map001(27,27), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "店主" at (9,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (6 items):
+          Show Text (face=People1[0])
+          Text: "歡迎光臨武器店！這裡有最好的武器！"
+            Shop: Weapon[1] (buy/sell)
+              +Shop Item: Weapon[43]
+              +Shop Item: Weapon[37]
+              +Shop Item: Weapon[7]
+
+======================================================================
+MAP 009: 幽暗洞穴 ("幽暗洞穴")
+======================================================================
+Size: 34x40, Tileset: 4
+BGM: Dungeon3, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+Encounter List:
+  Troop[1] weight=3
+  Troop[2] weight=3
+  Troop[10] weight=3
+  Troop[12] weight=2
+Encounter Step: 30
+
+TOTAL EVENTS: 16
+
+------------------------------------------------------------------------------------------
+EVENT 1: "EV001" at (26,2)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (27,2)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "EV003" at (26,4)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "EV004" at (27,4)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "EV005" at (4,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "EV006" at (4,6)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "EV007" at (2,13)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "EV008" at (2,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "洞穴入口" at (6,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map005(7,38), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "往BOSS" at (24,38)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map010(11,9), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "魔物" at (15,16)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[2]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "魔物" at (7,27)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[0]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[3] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "魔物" at (18,25)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[0]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[3] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 14: "魔物" at (29,16)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[0]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[3] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 15: "魔物" at (9,21)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[2]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 16: "魔物" at (16,30)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[2]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (3 items):
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+======================================================================
+MAP 010: BOSS戰 ("BOSS戰")
+======================================================================
+Size: 23x27, Tileset: 4
+BGM: Battle1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 26
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (11,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door2[1]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 6, Freq: 5
+    StepAnime: True, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "擊敗哥布林王後，你沿著洞穴通道前進。"
+          Text: "穿過狹窄的裂隙，回到了洞穴入口附近。"
+            Transfer: Map009(30,38), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (2,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "EV003" at (20,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "EV004" at (20,9)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "EV005" at (2,9)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "EV006" at (10,2)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "EV007" at (12,2)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "EV008" at (3,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "EV009" at (19,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "EV010" at (10,24)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "EV011" at (12,24)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "EV012" at (5,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "EV013" at (7,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 14: "EV014" at (15,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 15: "EV015" at (17,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 16: "EV016" at (6,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Crystal[2]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 17: "EV017" at (16,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Crystal[2]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 18: "EV018" at (12,18)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 19: "EV019" at (10,18)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 20: "EV020" at (10,16)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 21: "EV021" at (12,16)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 22: "EV022" at (10,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 23: "EV023" at (12,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Above characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 34: "EV034" at (6,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 37: "EV037" at (16,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 39: "哥布林王" at (11,18)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Monster[3]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (15 items):
+          Show Text (face=[0])
+          Text: "？？？：咕嚕嚕…又有人類闖進來了！"
+          Show Text (face=[0])
+          Text: "？？？：這個洞穴是我哥布林一族的地盤！"
+          Show Text (face=[0])
+          Text: "哥布林王：成為我們的糧食吧！！"
+            Battle Proc: Troop[5] (escape=N, lose=N)
+          Show Text (face=[0])
+          Text: "哥布林王：咕…不可能…人類怎麼可能打敗本王…"
+          Show Text (face=[0])
+          Text: "隨著哥布林王倒下，周圍的魔物開始四處逃竄。"
+          Text: "洞穴深處終於恢復了寧靜。"
+            Control Variable[1] += 2
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: Monster[3]
+    Priority: Same as characters, Trigger: Event Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+======================================================================
+MAP 011: 小木屋 ("小木屋")
+======================================================================
+Size: 19x16, Tileset: 3
+BGM: Scene3, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 4
+
+------------------------------------------------------------------------------------------
+EVENT 1: "EV001" at (9,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (5,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Flame[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "出口" at (9,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map005(19,17), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "商人" at (5,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (13 items):
+          Show Text (face=[0])
+          Text: "歡迎光臨！我是這裡的商人。"
+          Text: "雖然店面不大，但該有的東西都有！"
+            Shop: Weapon[1] (buy/sell)
+              +Shop Item: Weapon[7]
+              +Shop Item: Weapon[19]
+              +Shop Item: Weapon[25]
+              +Shop Item: Weapon[43]
+              +Shop Item: Item[7]
+              +Shop Item: Item[10]
+              +Shop Item: Item[13]
+              +Shop Item: Item[12]
+      [End of Page]
+
+======================================================================
+MAP 012: 森林城鎮 ("森林城鎮")
+======================================================================
+Size: 35x40, Tileset: 2
+BGM: Town1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 10
+
+------------------------------------------------------------------------------------------
+EVENT 1: "回村外道路" at (16,39)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map005(28,34), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "森林旅館" at (9,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map013(10,15), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "森林道具店" at (22,12)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map014(10,15), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "森林武器店" at (27,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map015(10,15), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "森林公會" at (27,27)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map016(10,15), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "民宅" at (9,23)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map017(10,15), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "往森林道路" at (19,3)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map018(9,28), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "鎮民" at (17,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People1[4]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=People1[4])
+          Text: "森林城鎮是個寧靜的小鎮。"
+          Text: "不過最近北邊的遺跡總傳來怪聲……"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "女性" at (25,9)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People2[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=People2[0])
+          Text: "公會最近張貼了新的委託。"
+          Text: "有興趣可以去看看喔！"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "小孩" at (12,6)
+  Total Pages: 1
+
+  [Page 1]
+    Image: People4[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 4, Freq: 4
+    StepAnime: True, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=People4[0])
+          Text: "大哥哥，你是傭兵嗎？好帥喔！"
+      [End of Page]
+
+======================================================================
+MAP 013: 森林旅館 ("森林旅館")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(9,13), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "旅館老闆" at (9,5)
+  Total Pages: 3
+
+  [Page 1]
+    Image: People2[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=2
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (12 items):
+          Show Text (face=People2[1])
+          Text: "艾倫！聽說你解決了遺跡的問題？"
+          Text: "太厲害了！今晚住宿免費，算我請客！"
+          Show Choices: ['住宿 (免費)', '謝謝好意'] (cancel=-2)
+            WHEN Choice[0]:
+            Recover All: Entire Party
+          Show Text (face=People2[1])
+          Text: "好好休息吧，英雄！"
+      [End of Page]
+            WHEN Choice[1]:
+      [End of Page]
+      [End of Page]
+
+  [Page 2]
+    Image: People2[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (20 items):
+          Show Text (face=People2[1])
+          Text: "哎呀，是艾倫啊！"
+          Text: "聽說你接了公會的遺跡調查委託？"
+          Text: "出發前先好好休息一晚吧，算你半價！"
+          Show Choices: ['住宿 (25G)', '不用了'] (cancel=-2)
+            WHEN Choice[0]:
+            Cond: Gold >= 25
+            Change Gold +25
+            Recover All: Entire Party
+          Show Text (face=People2[1])
+          Text: "好好休息了一晚，精神飽滿！"
+          Text: "明天的戰鬥，祝你好運！"
+      [End of Page]
+          Show Text (face=People2[1])
+          Text: "錢不夠啊…那我先幫你記著。"
+      [End of Page]
+      [End of Page]
+            WHEN Choice[1]:
+      [End of Page]
+      [End of Page]
+
+  [Page 3]
+    Image: People2[1]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (19 items):
+          Show Text (face=People2[1])
+          Text: "歡迎光臨森林旅館！要住宿一晚嗎？(50G)"
+          Show Choices: ['住宿', '不用了'] (cancel=1)
+            WHEN Choice[0]:
+              Cond: Gold >= 0
+                Change Gold -50
+                Recover All: Entire Party
+                Play SE: Item3 vol=90 pitch=100
+              Show Text (face=People2[1])
+              Text: "好好休息了一晚，體力完全恢復了！"
+              Code[411]: params=[]
+              Show Text (face=People2[1])
+              Text: "金幣不夠喔…先去賺點錢吧。"
+              End Condition
+            WHEN Cancel:
+            Show Text (face=People2[1])
+            Text: "需要休息隨時歡迎！"
+            End Choices
+      [End of Page]
+
+======================================================================
+MAP 014: 森林道具店 ("森林道具店")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(22,13), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "道具店店主" at (9,5)
+  Total Pages: 2
+
+  [Page 1]
+    Image: People4[2]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (7 items):
+          Show Text (face=People4[2])
+          Text: "歡迎光臨！這裡有旅途必備的道具！"
+            Shop: Item[7] (buy/sell)
+              +Shop Item: Item[8]
+              +Shop Item: Item[13]
+              +Shop Item: Item[12]
+      [End of Page]
+
+  [Page 2]
+    Image: People4[2]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=People4[2])
+          Text: "歡迎！是要去遺跡吧？"
+          Text: "我這裡的藥水都是最新進貨的！"
+            Shop: Item[7]
+  Shop: Item[8]
+  Shop: Item[12]
+  Shop: Item[13]
+  Shop: Item[10]
+  Shop: Item[11]
+  Shop: Item[18]
+      [End of Page]
+
+======================================================================
+MAP 015: 森林武器店 ("森林武器店")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(27,16), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "武器防具店店主" at (9,5)
+  Total Pages: 2
+
+  [Page 1]
+    Image: People1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (16 items):
+          Show Text (face=People1[0])
+          Text: "歡迎光臨武器防具店！來看看最新的裝備吧！"
+            Shop: Weapon[1] (buy/sell)
+              +Shop Item: Weapon[7]
+              +Shop Item: Weapon[43]
+              +Shop Item: Weapon[13]
+              +Shop Item: Weapon[19]
+              +Shop Item: Weapon[25]
+              +Shop Item: Weapon[37]
+              +Shop Item: Weapon[31]
+              +Shop Item: Armor[3]
+              +Shop Item: Armor[8]
+              +Shop Item: Armor[52]
+              +Shop Item: Armor[46]
+              +Shop Item: Armor[27]
+      [End of Page]
+
+  [Page 2]
+    Image: People1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=People1[0])
+          Text: "喔，冒險者！遺跡的裝備準備好了嗎？"
+          Text: "來看看這些好貨色！"
+            Shop: Weapon[1]
+  Shop: Weapon[2]
+  Shop: Weapon[3]
+  Shop: Weapon[19]
+  Shop: Weapon[20]
+  Shop: Weapon[25]
+  Shop: Weapon[26]
+  Shop: Weapon[31]
+  Shop: Armor[2]
+  Shop: Armor[3]
+  Shop: Armor[8]
+  Shop: Armor[9]
+  Shop: Armor[27]
+      [End of Page]
+
+======================================================================
+MAP 016: 森林公會 ("森林公會")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(27,28), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "公會接待員" at (9,5)
+  Total Pages: 5
+
+  [Page 1]
+    Image: People3[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=0
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (21 items):
+          Show Text (face=People3[0])
+          Text: "艾倫！你來得正好！"
+          Text: "公會剛剛收到一個緊急委託。"
+          Text: "森林北邊的密林遺跡最近頻繁傳出"
+          Text: "不明聲響，據說有冒險者在那邊失蹤了。"
+          Text: "公會希望你去遺跡調查一下，"
+          Text: "看看裡面到底發生了什麼事。"
+          Show Choices: ['接受委託', '再考慮一下'] (cancel=0)
+            WHEN Choice[0]:
+            Control Variable[2] = 1
+          Show Text (face=People3[0])
+          Text: "太好了！遺跡入口在森林道路的北端，"
+          Text: "從鎮上北邊出去就能到達。"
+          Text: "務必小心行事！"
+      [End of Page]
+            WHEN Choice[1]:
+          Show Text (face=People3[0])
+          Text: "好的，等你準備好了再來找我。"
+          Text: "不過這個委託很緊急，別等太久。"
+      [End of Page]
+      [End of Page]
+
+  [Page 2]
+    Image: People3[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=1
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (6 items):
+          Show Text (face=People3[0])
+          Text: "艾倫？你還在這裡做什麼？"
+          Text: "快出發去密林遺跡吧！"
+          Text: "從鎮上北邊出去，經過森林道路"
+          Text: "就能看到遺跡入口了。"
+      [End of Page]
+
+  [Page 3]
+    Image: People3[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=2
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (11 items):
+          Show Text (face=People3[0])
+          Text: "艾倫！你平安回來了！"
+            Control Variable[2] = 3
+          Show Text (face=People3[0])
+          Text: "公會已經聽說遺跡的事了。"
+          Text: "你做得很好！這是你的報酬。"
+            Change Gold +2000
+            Change Items[0] -0
+          Show Text (face=People3[0])
+          Text: "獲得了 2000 金幣和魔法之水！"
+      [End of Page]
+
+  [Page 4]
+    Image: People3[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=3
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (5 items):
+          Show Text (face=People3[0])
+          Text: "感謝你的協助，艾倫。"
+          Text: "因為你，森林城鎮才能恢復安寧。"
+          Text: "如果有新的委託，我會再通知你！"
+      [End of Page]
+
+  [Page 5]
+    Image: People3[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (5 items):
+          Show Text (face=People3[0])
+          Text: "歡迎來到森林城鎮的傭兵公會分會！"
+          Text: "最近鎮子周圍的魔物變得異常暴躁……"
+          Text: "如果你準備好了，隨時可以來找我接取新的委託！"
+      [End of Page]
+
+======================================================================
+MAP 017: 民宅 ("民宅")
+======================================================================
+Size: 17x17, Tileset: 3
+BGM: , BGS: 
+Auto BGM: False, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (10,15)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[4]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(9,24), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "居民" at (6,8)
+  Total Pages: 3
+
+  [Page 1]
+    Image: People2[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    Condition: Variable[2]>=2
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=People2[3])
+          Text: "遺跡的問題解決了？太好了！"
+          Text: "鎮上總算可以恢復安寧了。"
+          Text: "謝謝你，冒險者！"
+      [End of Page]
+
+  [Page 2]
+    Image: People2[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=People2[3])
+          Text: "你也要去那個遺跡嗎？"
+          Text: "最近好多冒險者往北邊去了……"
+          Text: "但回來的沒幾個。千萬要小心啊！"
+      [End of Page]
+
+  [Page 3]
+    Image: People2[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=People2[3])
+          Text: "歡迎來到我家！你是新來的冒險者吧？"
+          Text: "森林城鎮雖然不大，但周圍的森林裡有很多珍貴的資源。"
+          Text: "如果你需要補給，城鎮廣場周圍的商店都很齊全。"
+      [End of Page]
+
+======================================================================
+MAP 018: 森林道路 ("森林道路")
+======================================================================
+Size: 18x30, Tileset: 2
+BGM: Field1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+Encounter List:
+  Troop[1] weight=15
+  Troop[2] weight=10
+  Troop[3] weight=8
+Encounter Step: 25
+
+TOTAL EVENTS: 8
+
+------------------------------------------------------------------------------------------
+EVENT 1: "往森林城鎮" at (0,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(19,4), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "往密林遺跡" at (17,13)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map019(3,28), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "往森林城鎮" at (0,9)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map012(19,4), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "往密林遺跡" at (17,14)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map019(3,28), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "路標" at (10,10)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "▲ 往北：密林遺跡"
+          Text: "▼ 往南：森林城鎮"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "旅行者" at (6,7)
+  Total Pages: 2
+
+  [Page 1]
+    Image: People2[3]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "你也是來調查密林遺跡的嗎？"
+          Text: "聽說那裡曾是上古文明的聖地，"
+          Text: "但現在被魔物佔據了。要小心啊。"
+      [End of Page]
+
+  [Page 2]
+    Image: People2[3]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "這片森林深處經常傳來奇怪的聲響……"
+          Text: "我是不敢再往前走了，你保重。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "獵人" at (13,11)
+  Total Pages: 3
+
+  [Page 1]
+    Image: People1[5]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Switch[4]=ON
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (9 items):
+          Show Text (face=[0])
+          Text: "喲，冒險者。你要去遺跡的話，"
+          Text: "我勸你先做好準備。那邊的魔物"
+          Text: "比森林裡的強上好幾倍。"
+            Change Items[0] -0
+          Show Text (face=[0])
+          Text: "這瓶藥水給你，以備不時之需。"
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: People1[5]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "路上小心。遺跡裡的魔物不好對付。"
+      [End of Page]
+
+  [Page 3]
+    Image: People1[5]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 1, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "這裡很危險，你還是回去吧。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "草叢" at (2,6)
+  Total Pages: 2
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (7 items):
+          Show Text (face=[0])
+          Text: "草叢中有東西在閃閃發光……"
+            Change Items[0] -0
+          Show Text (face=[0])
+          Text: "獲得了解毒草！"
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "這裡已經被搜刮過了。"
+      [End of Page]
+
+======================================================================
+MAP 019: 密林遺跡 ("密林遺跡")
+======================================================================
+Size: 20x30, Tileset: 4
+BGM: Dungeon1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+Encounter List:
+  Troop[4] weight=3
+  Troop[6] weight=3
+  Troop[3] weight=2
+  Troop[13] weight=3
+  Troop[14] weight=2
+Encounter Step: 20
+
+TOTAL EVENTS: 7
+
+------------------------------------------------------------------------------------------
+EVENT 1: "往森林道路" at (3,29)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map018(16,13), dir=same, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "往遺跡深處" at (8,6)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: Variable[2]>=1
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "你感覺到深處有一股強大的邪惡氣息……"
+          Text: "小心前進。"
+            Transfer: Map020(23,29), dir=up, fade=black
+      [End of Page]
+
+  [Page 2]
+    Image: !Door1[0]
+    Priority: Below characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map020(23,29), dir=up, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "古代祭壇" at (4,9)
+  Total Pages: 2
+
+  [Page 1]
+    Image: Tile#73
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Variable[2]>=1
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (6 items):
+          Show Text (face=[0])
+          Text: "一座古老的石製祭壇。"
+          Text: "上面刻滿了看不懂的上古文字……"
+          Text: "祭壇中央有一個凹槽，"
+          Text: "似乎曾經放置過什麼重要的東西。"
+      [End of Page]
+
+  [Page 2]
+    Image: Tile#73
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "一座古老的石製祭壇。"
+          Text: "但似乎沒什麼特別的。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "寶箱" at (4,20)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Chest[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "寶箱中發現了藥水！"
+            Change Items[0] -0
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: !Chest[0]
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Self[A]=ON
+    DirectionFix: True, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "寶箱是空的。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "魔物偷襲" at (13,13)
+  Total Pages: 2
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (7 items):
+            Wait 15 frames
+          Show Text (face=[0])
+          Text: "！"
+          Text: "一道黑影從角落襲來！"
+            Battle Proc: Troop[4] (escape=N, lose=N)
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "筆記碎片" at (9,27)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (6 items):
+          Show Text (face=[0])
+          Text: "地上有一張破舊的筆記……"
+          Text: "『第三天…我終於進入了遺跡深處。』"
+          Text: "『那裡有…不可能…那東西不該存在於這個世界…』"
+          Text: "之後的內容被血跡模糊了，看不清楚。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "破裂的牆壁" at (11,19)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Below characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "牆壁上有巨大的爪痕，"
+          Text: "看起來是什麼大型生物留下的。"
+      [End of Page]
+
+======================================================================
+MAP 020: 遺跡深處 ("遺跡深處（2.Boss战）")
+======================================================================
+Size: 40x40, Tileset: 4
+BGM: Battle2, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 3
+
+------------------------------------------------------------------------------------------
+EVENT 1: "出口" at (23,30)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (2 items):
+            Transfer: Map019(8,7), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "遺跡守護者" at (20,20)
+  Total Pages: 3
+
+  [Page 1]
+    Image: Monster[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[2]>=1
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (18 items):
+            Wait 30 frames
+          Show Text (face=[0])
+          Text: "你走進了遺跡最深處的房間……"
+          Text: "空氣中充滿了沉重的壓迫感。"
+            Wait 60 frames
+            Wait 0 frames
+          Show Text (face=[0])
+          Text: "一道巨大的身影從黑暗中緩緩浮現——"
+            Wait 30 frames
+            Battle Proc: Troop[7] (escape=N, lose=N)
+            Control Variable[2] = 2
+            Wait 30 frames
+          Show Text (face=[0])
+          Text: "遺跡守護者被擊敗了！"
+          Text: "隨著守護者的倒下，遺跡深處"
+          Text: "似乎有什麼機關被打開了……"
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: (none)
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Variable[2]>=2
+    Condition: Self[A]=ON
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "遺跡恢復了平靜。"
+          Text: "守護者的碎片散落一地……"
+      [End of Page]
+
+  [Page 3]
+    Image: (none)
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (4 items):
+          Show Text (face=[0])
+          Text: "深處傳來一陣低沉的咆哮……"
+          Text: "似乎有什麼強大的存在甦醒了。"
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "寶箱" at (33,25)
+  Total Pages: 2
+
+  [Page 1]
+    Image: !Chest[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: True, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (5 items):
+          Show Text (face=[0])
+          Text: "寶箱中發現了龍之刃！"
+            Change Items[1] -0
+            Control Self Switch A = ON
+      [End of Page]
+
+  [Page 2]
+    Image: !Chest[5]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: Self[A]=ON
+    DirectionFix: True, Through: True
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: False
+    Commands (3 items):
+          Show Text (face=[0])
+          Text: "寶箱已經空了。"
+      [End of Page]
+
+======================================================================
+MAP 021: 试炼之塔 ("试炼之塔")
+======================================================================
+Size: 25x32, Tileset: 2
+BGM: Castle3, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: River
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 17
+
+------------------------------------------------------------------------------------------
+EVENT 1: "EV001" at (11,18)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 2: "EV002" at (13,18)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 3: "EV003" at (12,17)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Door1[3]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 4: "EV004" at (12,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !$Gate1[0]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 5: "EV005" at (15,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 6: "EV006" at (9,22)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 7: "EV007" at (14,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 8: "EV008" at (10,5)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 9: "EV009" at (10,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 10: "EV010" at (14,8)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 11: "EV011" at (11,25)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 12: "EV012" at (11,27)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 13: "EV013" at (11,29)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 14: "入口" at (12,23)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map022(24,48), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 15: "EV015" at (13,25)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 16: "EV016" at (13,27)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 17: "EV017" at (13,29)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other2[7]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: False
+    Commands (1 items):
+      [End of Page]
+
+======================================================================
+MAP 022: 试炼之塔1F ("试炼之塔1F")
+======================================================================
+Size: 49x53, Tileset: 4
+BGM: Dungeon1, BGS: 
+Auto BGM: True, Auto BGS: False
+Parallax: 
+Scroll Type: 0, Dash Disabled: False
+No encounters.
+
+TOTAL EVENTS: 2
+
+------------------------------------------------------------------------------------------
+EVENT 0: "出口" at (28,28)
+  Total Pages: 1
+
+  [Page 1]
+    Image: (none)
+    Priority: Same as characters, Trigger: Player Touch
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: False, WalkAnime: True
+    Commands (2 items):
+            Transfer: Map021(12,24), dir=down, fade=black
+      [End of Page]
+
+------------------------------------------------------------------------------------------
+EVENT 1: "转职祭坛" at (24,25)
+  Total Pages: 1
+
+  [Page 1]
+    Image: !Other1[6]
+    Priority: Same as characters, Trigger: Action Button
+    Condition: None
+    DirectionFix: False, Through: False
+    MoveType: 0, Speed: 3, Freq: 3
+    StepAnime: True, WalkAnime: True
+    Commands (21 items):
+          Show Text (face=[0])
+            Cond: Self Switch 1 is OFF
+            Show Choices: ['魔剑士', '猎人', '盗贼'] (cancel=3)
+              WHEN Choice[0]:
+                Change Equipment: [1, 6, 0]
+              Show Text (face=[0])
+              End Choices
+              WHEN Choice[1]:
+                Change Equipment: [1, 7, 0]
+              Show Text (face=[0])
+              End Choices
+              WHEN Choice[2]:
+                Change Equipment: [1, 8, 0]
+              Show Text (face=[0])
+              End Choices
+              WHEN Cancel:
+            Show Text (face=[0])
+              End Choices
+            End Condition
+            Show Text (face=[0])
+      [End of Page]
+
+================================================================================
+SUMMARY
+================================================================================
+
+Map 001 (起始之村): 16 events, 16 pages
+Map 002 (艾倫的家): 4 events, 14 pages
+Map 003 (村外道路): 13 events, 15 pages
+Map 004 (傭兵公會): 5 events, 8 pages
+Map 005 (幽暗森林): 18 events, 23 pages
+Map 006 (旅館): 2 events, 2 pages
+Map 007 (道具店): 2 events, 2 pages
+Map 008 (武器店): 2 events, 2 pages
+Map 009 (幽暗洞穴): 16 events, 22 pages
+Map 010 (BOSS戰): 26 events, 27 pages
+Map 011 (小木屋): 4 events, 4 pages
+Map 012 (森林城鎮): 10 events, 10 pages
+Map 013 (森林旅館): 2 events, 4 pages
+Map 014 (森林道具店): 2 events, 3 pages
+Map 015 (森林武器店): 2 events, 3 pages
+Map 016 (森林公會): 2 events, 6 pages
+Map 017 (民宅): 2 events, 4 pages
+Map 018 (森林道路): 8 events, 12 pages
+Map 019 (密林遺跡): 7 events, 11 pages
+Map 020 (遺跡深處（2.Boss战）): 3 events, 6 pages
+Map 021 (试炼之塔): 17 events, 17 pages
+Map 022 (试炼之塔1F): 2 events, 2 pages
+
+GRAND TOTAL: 165 events, 213 pages across 22 maps
